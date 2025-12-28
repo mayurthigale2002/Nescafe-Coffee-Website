@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOOTSTRAP CSS CDN ATTACHED BELOW -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+    crossorigin="anonymous">
+
+
+    <style>
+      .body{
+         background-color: rgba(126, 51, 51, 0.521);
+      }
+
+      .row{
+        transition: transform 0.3s ease-in-out;
+      }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+
+      }
+      img{
+      transform: translateY(-10px);
+      box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out; 
+      }
+
+    
+       
+    </style>
+
+</head>
+<body>
+
+
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-dark fixed-top"> 
+  <a class="navbar-brand mx-4" href="#">
+    <img src="https://www.nescafe.com/in/sites/default/files/latest_logo_white.png" width="100" height="50" class="d-inline-block align-center mx-4  " alt="nescafe">
+    
+  </a>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <!-- <a class="navbar-brand text-danger" href="#">Navbar scroll</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+      <li class="nav-item active">
+        <a class="nav-link text-danger" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger" href="ourcoffee.html">Our Coffees</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger" href="recipes.html">Our Recipes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-danger" href="contact.html">Contact Us</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </div>
+</nav>
+</nav>
+
+<!-- cont 1 -->
+<div class="container" style="margin-top: 100px;">
+    <h1 class="text-center text-secondary">OUR <b>COFFEE..</b></h1>
+    
+    
+<div class="ab p-3 d-flex d-inline-block text-center align-center justify-content-around" >
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    Types of Coffee
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Black Coffee</a>
+    <a class="dropdown-item" href="#">Frothy Coffee</a>
+    <a class="dropdown-item" href="#">Capucinno</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    Coffee formats
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Ready To Drink</a>
+    <a class="dropdown-item" href="#">Sachets</a>
+    <a class="dropdown-item" href="#">Instant Coffee</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    Instant Coffee 
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Ready To Drink</a>
+    <a class="dropdown-item" href="#">Sachets</a>
+    <a class="dropdown-item" href="#">Instant Coffee</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+   Our ranges
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Iced Latté Can</a>
+    <a class="dropdown-item" href="#">Intense Café</a>
+    <a class="dropdown-item" href="#">Chilled Latté</a>
+  </div>
+</div>
+
+</div>
+<!-- ------------------------------------------------------------------- -->
+
+<div class="row align-center">
+<div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee1.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Iced Latté Can</h5>
+    <p class="card-text">Your favorite coffee experience  enjoy their coffee light made more stylish with a cool can enjoy their coffee light!</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+</div>
+</div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee4.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Intense Café</h5>
+    <p class="card-text">Indulgent cold coffee, with an invigorating kick of Cappuccino, perfect for those who enjoy their coffee strong.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    
+    </div>
+    </div>
+    </div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee3.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Chilled Latté</h5>
+    <p class="card-text">Delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+
+</div>
+
+<!-- cont2 -->
+<div class="container" style="margin-top: 100px;">
+<div class="row align-center">
+<div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee2.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Intense small Café</h5>
+    <p class="card-text">Indulgent cold coffee, with an invigorating kick of Cappuccino, perfect for those who enjoy their coffee strong.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+</div>
+</div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee5.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Sunrise Coffee</h5>
+    <p class="card-text">Delicious coffee indulgence with an extra creamy flavour, perfect for those who enjoy their coffee light and milky</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee6.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">É by NESCAFÉ® </h5>
+    <p class="card-text">Revolutionize your daily coffee experience with É by NESCAFÉ® - a first of its kind. Easily controlled through the NESCAFÉ® É</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+
+<!-- cont3 -->
+ <div class="container" style="margin-top: 100px;">
+<div class="row align-center">
+<div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee7.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Medium Roast</h5>
+    <p class="card-text">Some quick Enjoy delicate Medium Roast crafted by our master roasters to create a sophisticated taste.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+</div>
+</div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee8.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Dark Roast</h5>
+    <p class="card-text">Enjoy intense dark roast crafted by our master roasters to create a sophisticated taste. bulk of the card's content.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee9.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Sachets All-in-1</h5>
+    <p class="card-text">Discover NESCAFÉ® Allin1 coffee sachets: a delicious combination of sophisticated taste coffee, milk, and sugar.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+
+<!-- cont4 -->
+ <div class="container" style="margin-top: 100px;">
+<div class="row align-center">
+<div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee10.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Frappe</h5>
+    <p class="card-text">Some quick Just add cold water for a great tasting cold coffee. the bulk of the card's content.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+</div>
+</div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee11.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Black Roast Coffee</h5>
+    <p class="card-text">Discover our darkest roast in - an intense taste - only for the bold of the card's content.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee12.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Cappuccino</h5>
+    <p class="card-text">For a frothy, café-style cappuccino in seconds. and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+
+
+
+<!-- cont5 -->
+ <div class="container-fluid" style="margin-top: 100px;">
+<div class="row align-center">
+<div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee13.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Ice Roast</h5>
+    <p class="card-text">The Right for the coffee for an Iced coffee.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+</div>
+</div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee14.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Classic</h5>
+    <p class="card-text">Our signature coffee with its aroma & full flavour</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <img src="./Assets/coffee1.webp" alt="" width="250" height="250" class="d-inline-block align-center mx-1">
+    <h5 class="card-title">Gold Blend</h5>
+    <p class="card-text">Enjoy our artfully crafted, signature.</p>
+    <a href="#" class="card-link">Let's Enjoy</a>
+    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+</div>
+<hr>
+
+
+<!-- Footer------------------------------------------------------------------------ -->
+
+<div class="container-fluid bg-secondary">
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card-footer text-light bg-secondary mb-2">
+  <a class="navbar-brand mx-4" href="#">
+    <img src="./Assets/nescafe_logo_white.webp" width="150" height="50" class="d-inline-block align-center mx-4  " alt="nescafe"> 
+  </a>
+  <br>
+  <br>
+  <p>NESCAFE® is registered trademarks of Société de Produits Nestlé S.A.</p>
+  </div>
+    </div>
+    <div class="col-sm-4"><br>
+    <p class="m-5 text-light">Follow NESCAFÉ® on social media for even more tasty content. <br><br>
+    <img src="./Assets/Facebook.svg">
+    <img src="./Assets/Instagram_0.svg"> 
+    <img src="./Assets/Youtube.svg">  
+    <img src="./Assets/Twitter.svg"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm text-light">
+      <ul>
+        <li><b>Featured</b><br><br></li>
+        <li><b>Terms and Conditions</b><br></li>
+      </ul>
+    </div>
+
+    <div class="col-sm text-light">
+      <ul>
+        <li><b>Privacy Policy</b><br><br></li>
+        <li><b>Professional</b><br></li>
+      </ul>
+    </div>
+
+    <div class="col-sm text-light">
+      <ul>
+        <li><b>Feedback</b><br><br></li>
+        <li><b>Cookies</b><br><br></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+   
+
+    
+
+    <!-- BOOTSTRAP JS CDN ATTACHED BELOW -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" 
+    crossorigin="anonymous">
+    </script>
+
+    
+</body>
+</html>
