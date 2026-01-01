@@ -76,7 +76,8 @@
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="4"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-warning">Send Message</button>
+                    <button type="submit" class="btn btn-warning" onclick="display(event)">Send Message</button>
+<div id="successAlert" class="alert alert-success mt-3 d-none" role="alert"> Message submitted successfully!</div>
                 </form>
             </div>
             <div class="col-md-6">
@@ -131,6 +132,19 @@
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" 
     crossorigin="anonymous">
     </script>
+
+    <script>
+  function display(e) {
+    e.preventDefault();
+
+    const alertBox = document.getElementById("successAlert");
+    alertBox.classList.remove("d-none");
+
+    setTimeout(() => {
+      alertBox.classList.add("d-none");
+    }, 3000); 
+  }
+</script>
 
     
 </body>
